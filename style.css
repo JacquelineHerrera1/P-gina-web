@@ -1,50 +1,41 @@
+/* Soy un comentario, Cambiar el background de la página*/
 body {
-    background-color: #F2F2F2;
-    color: #333;
+    /* color de fondo */
+    background-color: #BBD0FF;
+    /* color de texto */
+    color: #403d39;
+    /* fuente del texto */
     font-family: 'Mooli', sans-serif;
-    margin: 0;
-    padding: 0;
+    /* propiedad (borde gráfico) : ancho estilo color */
+    border: 5px solid #5e548e;
+
+
 }
 
-a {
-    color: #5e548e;
-    text-decoration: none;
-}
 
-a:hover {
+h1{
     color: #252422;
 }
 
-main {
-    background-color: #FFFFFF;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
-h1 {
-    font-size: 36px;
-    color: #252422;
-}
-
-h3 {
-    font-size: 24px;
+h3{
     color: #495057;
 }
 
-img {
-    max-width: 100%;
-    margin: 10px 0;
+
+img{
+    /* width- ancho del objeto y height- altura del objeto*/
+    width: 200px;
 }
 
-ol, ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+/* CLASES (class) siempre llevan . antes del nombre*/
+.real-books{
+    width: 300px;
+
+
 }
 
-li {
-    margin-bottom: 5px;
-}
 
 
 
